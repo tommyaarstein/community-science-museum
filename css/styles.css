@@ -1,3 +1,25 @@
 @import url(_variables.css);
 @import url(_layout.css);
+@import url(_header.css);
+@import url(_footer.css);
 
+/* Base */
+body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}

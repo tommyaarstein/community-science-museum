@@ -1,0 +1,11 @@
+:root {
+    /* Colors */
+    --color-brand: #21572a;
+    --color-background: #e8d6b5;
+    --color-text: #1e293b;
+    --color-on-brand: #ffffff;
+
+    /* Fonts */
+    --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    --font-heading: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
