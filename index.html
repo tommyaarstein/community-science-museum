@@ -16,7 +16,7 @@
               <span class="brand-name">Tromsø Community Science Museum</span>
           </a>
 
-          <input class="nav-toggle" type="checkbox" id="nav-toggle">
+          <input class="nav-toggle sr-only" type="checkbox" id="nav-toggle">
           <label class="nav-toggle-label" for="nav-toggle">
               <span class="nav-toggle-icon"></span>
               <span class="sr-only">Menu</span>
@@ -35,23 +35,45 @@
     </header>
 
     <main id="main">
+      <section class="hero">
+        <div class="hero-image" aria-hidden="true"></div>
+
+        <div class="hero-text container">
+          <h1>We welcome curious minds to our museum of wonder</h1>
+          <p>Where theory interacts with reality.</p>
+        </div>
+      </section>
+
+      <section class="home-tiles" aria-label="Quick links">
+        <a class="tile tile-exhibitions" href="./pages/exhibitions.html">
+          <h2>Exhibitions</h2>
+        </a>
+
+        <a class="tile tile-explore" href="./pages/explore.html">
+          <h2>Explore</h2>
+        </a>
+
+        <a class="tile tile-visit" href="./pages/visit.html">
+          <h2>Visit</h2>
+        </a>
+      </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-grid">
         <section class="footer-left" aria-label="Footer branding">
           <div class="footer-left-top">
-            <img class="footer-logo" src="assets/images/logo.jpg" alt="Tromsø community Science Museum logo" width="56" height="56">
+            <img class="footer-logo" src="./assets/images/logo.jpg" alt="Tromsø community Science Museum logo" width="56" height="56">
             
             <nav class="footer-social" aria-label="Social media">
               <a class="social-link" href="https://www.facebook.com" target="_blank" rel="noreferrer">
-                <img src="assets/images/icons8-facebook-48.png" alt="Facebook" width="32" height="32">
+                <img src="./assets/images/icons8-facebook-48.png" alt="Facebook" width="32" height="32">
               </a>
               <a class="social-link" href="https://www.instagram.com" target="_blank" rel="noreferrer">
-                <img src="assets/images/icons8-instagram-48.png" alt="Instagram" width="32" height="32">
+                <img src="./assets/images/icons8-instagram-48.png" alt="Instagram" width="32" height="32">
               </a>
               <a class="social-link" href="https://www.youtube.com" target="_blank" rel="noreferrer">
-                <img src="assets/images/icons8-youtube-48.png" alt="Youtube" width="32" height="32">
+                <img src="./assets/images/icons8-youtube-48.png" alt="Youtube" width="32" height="32">
               </a>
             </nav>
           </div>

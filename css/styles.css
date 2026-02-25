@@ -2,6 +2,7 @@
 @import url(_layout.css);
 @import url(_header.css);
 @import url(_footer.css);
+@import url(_home.css);
 
 /* Base */
 body {
@@ -11,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 }
 
 main {

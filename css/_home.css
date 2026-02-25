@@ -1,0 +1,97 @@
+.hero {
+    background: var(--color-background);
+    border-bottom: 4px solid #000000;
+}
+
+.hero-image {
+    background-image: url(../assets/images/hero-cropped.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 192px;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 1.25rem 1rem;
+}
+
+.hero-text h1 {
+    margin: 0 0 0.25rem;
+}
+
+.hero-text p {
+    margin: 0;
+}
+
+.home-tiles {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-left: 4px solid #000000;
+    border-right: 4px solid #000000;
+}
+
+.tile {
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-bottom: 4px solid #000000;
+}
+
+.tile h2 {
+    position: relative;
+    z-index: 2;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Dark shader overlay */
+.tile::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    transition: background 0.2s ease;
+}
+
+.tile:hover::before,
+.tile:focus-visible::before {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Tile Images */
+.tile-exhibitions {
+    background-image: url(../assets/images/exhibition.jpg);
+}
+
+.tile-explore {
+    background-image: url(../assets/images/explore.jpg);
+}
+
+.tile-visit {
+    background-image: url(../assets/images/visit.jpg);
+}
+
+@media (min-width: 768px) {
+    .home-tiles {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .tile-visit {
+        grid-row: 1 / span 2;
+        grid-column: 2;
+        border-left: 4px solid #000000;
+    }
+}
