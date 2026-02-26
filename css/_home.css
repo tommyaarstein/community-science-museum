@@ -1,33 +1,9 @@
-.hero {
-    background: var(--color-background);
-    border-bottom: 4px solid #000000;
-}
-
-.hero-image {
-    background-image: url(../assets/images/hero-cropped.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 192px;
-}
-
-.hero-text {
-    text-align: center;
-    padding: 1.25rem 1rem;
-}
-
-.hero-text h1 {
-    margin: 0 0 0.25rem;
-}
-
-.hero-text p {
-    margin: 0;
-}
-
 .home-tiles {
     display: grid;
     grid-template-columns: 1fr;
     border-left: 4px solid #000000;
     border-right: 4px solid #000000;
+    border-bottom: 4px solid #000000;
 }
 
 .tile {
@@ -42,7 +18,7 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    border-bottom: 4px solid #000000;
+    border-top: 4px solid #000000;
 }
 
 .tile h2 {

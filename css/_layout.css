@@ -16,3 +16,23 @@
     white-space: nowrap;
     border: 0;
 }
+
+.hero-image {
+    background-image: url(../assets/images/hero-cropped.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 192px;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 1.25rem 1rem;
+}
+
+.hero-text h1 {
+    margin: 0 0 0.25rem;
+}
+
+.hero-text p {
+    margin: 0;
+}
