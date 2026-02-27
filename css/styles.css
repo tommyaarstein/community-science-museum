@@ -4,6 +4,7 @@
 @import url(_footer.css);
 @import url(_home.css);
 @import url(_exhibitions.css);
+@import url(_explore.css);
 
 /* Base */
 body {
