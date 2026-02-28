@@ -106,6 +106,12 @@
     gap: 1rem;
 }
 
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+}
+
 .form-group input,
 .form-group textarea {
     width: 100%;
