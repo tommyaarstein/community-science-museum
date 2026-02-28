@@ -1,0 +1,87 @@
+/* Interactive map */
+
+.visit-map {
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 19 / 9;
+}
+
+.visit-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+/* Address info */
+
+.visit-section {
+    padding: 4rem 0;
+}
+
+.visit-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.visit-title {
+    margin: 0 0 0.75rem;
+}
+
+.visit-text {
+    margin: 0 0 1rem;
+}
+
+.visit-address {
+    font-style: normal;
+}
+
+.visit-location {
+    padding: 4rem 0;
+    background: var(--color-visit);
+    color: #ffffff;
+}
+
+/*Visit hours */
+.visit-hours {
+    padding: 3rem 0 4rem;
+    background: var(--color-background);
+    text-align: center;
+}
+
+.hours-title {
+    margin: 0 0 1.5rem;
+}
+
+.hours-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.hours-table th,
+.hours-table td {
+    padding: 0.15rem 1.25rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .visit-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .visit-map {
+        max-width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+
+    .visit-hours {
+        text-align: left;
+    }
+
+    .hours-table {
+        width: 100%;
+    }
+}
