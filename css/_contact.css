@@ -1,3 +1,5 @@
+/* Page background */
+
 #main-contact {
     background: var(--color-visit);
 }
@@ -5,6 +7,8 @@
 #main-contact .hero {
     background: var(--color-background);
 }
+
+/* FAQ section */
 
 .contact-faq {
     padding: 4rem 0;
@@ -24,6 +28,8 @@
 .contact-faq a:hover {
     opacity: 0.8;
 }
+
+/* FAQ accordion */
 
 .faq {
     max-width: 760px;
@@ -73,6 +79,8 @@
     margin: 0.5rem 0 0;
 }
 
+/* Divider */
+
 .contact-divider {
     border: 0;
     height: 1px;
@@ -85,8 +93,9 @@
     padding: 2rem 0;
 }
 
+/* Contact form */
+
 .contact-form-section {
-   
     padding-bottom: 5rem;
     color: #ffffff;
 }
@@ -126,6 +135,8 @@
     outline: 2px solid #ffffff;
 }
 
+/* Send button */
+
 .btn-send {
     width: fit-content;
     padding: 0.5rem 1rem;
@@ -156,6 +167,8 @@
 .btn-send:active {
     transform: translateY(0);
 }
+
+/* Mobile */
 
 @media (max-width: 768px) {
     .contact-divider {
