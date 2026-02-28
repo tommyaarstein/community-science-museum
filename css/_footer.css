@@ -69,6 +69,11 @@
     order: 1;
 }
 
+.footer-right a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .footer-title {
     display: block;
     margin-bottom: 0.25rem;

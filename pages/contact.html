@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <meta name="description" content="" />
+    <title>Contact | Tromsø Community Science Museum</title>
+    <meta name="description" content="Read about the frequently asked questions or contact the museum directly" />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
 
@@ -34,7 +34,99 @@
         </div>
       </header>
 
-    <main id="main">
+    <main id="main-contact">
+        <section class="hero">
+            <div class="hero-image" aria-hidden="true"></div>
+
+            <div class="hero-text container">
+                <h1>Contact us!</h1>
+                <p>Frequently asked questions can be found below, or you can contact us directly.</p>
+            </div>
+        </section>
+
+        <section class="contact-faq" aria-label="Frequently asked questions">
+            <div class="container">
+                <h2 class="contact-section-title">Frequently Asked Questions</h2>
+
+                <div class="faq">
+                    <details class="faq-item">
+                        <summary class="faq-question">What are your opening hours?</summary>
+                        <div class="faq-answer">
+                            <p>Our opening hours varies per day. Please visit <a href="./visit.html">tcsm.no/visit</a> for more information.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">What is the entry fee?</summary>
+                        <div class="faq-answer">
+                            <p>Adults: Kr 200,-</p>
+                            <p>Children: Kr 100,-</p>
+                            <p>Children 0-5: Free</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                     <summary class="faq-question">Where are you located?</summary>
+                        <div class="faq-answer">
+                            <p>We are located at Kvaløyvegen 11, 9019 Tromsø. You can also find a map at <a href="./visit.html">tcsm.no/visit</a>.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">Can we bring our children free of charge?</summary>
+                        <div class="faq-answer">
+                            <p>Children aged 0 to 5 have free entry. Children above the age of 5 is Kr 100,-.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">Do you sell food and drinks?</summary>
+                        <div class="faq-answer">
+                            <p> Yes! Our Cafè is located on the 1st floor next to the reception. You can buy coffee, soft drinks, snacks and pre-made food.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-divider-section" aria-hidden="true">
+            <div class="container">
+             <hr class="contact-divider">
+            </div>
+        </section>  
+
+        <section class="contact-form-section" aria-label="Send us a message">
+            <div class="container contact-form-wrapper">
+                <h2 class="contact-section-title">Send us a message:</h2>
+                <p class="contact-intro">
+                    If you have any other questions, feel free to submit your contact information and question below.<br> We will answer as soon as possible.
+                    You can expect an answer within 1 business day.
+                </p>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Question</label>
+                        <textarea name="message" id="message" rows="5" placeholder="Question" required></textarea>
+                    </div>
+
+                    <button class="btn-send" type="submit">
+                        <span>Send</span>
+                        <img class="btn-send-icon" src="../assets/images/icons8-send-24.png" alt="" aria-hidden="true">
+                    </button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
     <footer class="site-footer">
@@ -65,8 +157,8 @@
         <strong class="footer-title">Tromsø Community Science Museum</strong>
         <div>Kvaløyvegen 11</div>
         <div>9019 Tromsø</div>
-        <div>Phone: 77 63 50 42</div>
-        <div>Email: post@tcsm.no</div>
+        <div><a href="tel:77635042">Phone: 77 63 50 42</a></div>
+        <div><a href="mailto:post@tcsm.no">Email: post@tcsm.no</a></div>
         </address>
       </div>
     </footer>
