@@ -41,6 +41,13 @@
     color: var(--color-on-brand);
 }
 
+/* Show keyboard focuys on the visible menu icon */
+.nav-toggle:focus-visible + .nav-toggle-label {
+    outline: 3px solid var(--color-on-brand);
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
 .nav-toggle-icon,
 .nav-toggle-icon::before,
 .nav-toggle-icon::after {
@@ -114,6 +121,10 @@
 
 /* Desktop navigation */
 @media (min-width: 768px) {
+    .nav-toggle {
+        display: none;
+    }
+    
     .nav-toggle-label {
         display: none;
     }
